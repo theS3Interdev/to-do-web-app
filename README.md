@@ -1,3 +1,3 @@
-# S3 To Do Application
+# New To Do Application
 
 Simple cloud based To Do application.

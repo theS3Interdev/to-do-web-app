@@ -14,7 +14,7 @@ type Children = {
 };
 
 export const metadata: Metadata = {
-  title: "To Do App",
+  title: "New To Do App",
   description: "Simple cloud based task management application.",
 };
 
