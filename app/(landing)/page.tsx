@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { Container } from "@/components/container";
+import { Container } from "@/components/generic/container";
 import { Button } from "@/components/ui/button";
 
 const LandingPage = () => {
