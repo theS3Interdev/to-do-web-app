@@ -6,6 +6,7 @@ import { TanstackProvider } from "@/lib/providers/tanstack-provider";
 import { ThemeProvider } from "@/lib/providers/theme-provider";
 
 import { Toaster } from "@/components/ui/toaster";
+import { MainNavigationBar } from "@/components/index";
 
 import "@/app/styles/globals.css";
 
@@ -30,6 +31,7 @@ const RootLayout = ({ children }: Children) => {
               enableSystem
               disableTransitionOnChange
             >
+              <MainNavigationBar />
               {children}
               <Toaster />
             </ThemeProvider>
