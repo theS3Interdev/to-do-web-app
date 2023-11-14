@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import { Container } from "@/components/generic/container";
+import { Container } from "@/components/index";
 
 type DashboardLayoutProps = {
   children: ReactNode;

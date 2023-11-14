@@ -1,13 +1,12 @@
 import Link from "next/link";
 import { Flame } from "lucide-react";
 
-import { Container } from "@/components/generic/container";
-import { MainNavigationBarActions } from "@/components/index";
+import { Container, MainNavigationBarActions } from "@/components/index";
 
 export const MainNavigationBar = () => {
   return (
     <header>
-      <nav className="border-b">
+      <nav>
         <Container>
           <div className="flex h-16 items-center justify-between">
             <Link href="/" className="flex items-center">

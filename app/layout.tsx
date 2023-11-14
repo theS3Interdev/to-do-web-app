@@ -6,7 +6,7 @@ import { TanstackProvider } from "@/lib/providers/tanstack-provider";
 import { ThemeProvider } from "@/lib/providers/theme-provider";
 
 import { Toaster } from "@/components/ui/toaster";
-import { MainNavigationBar } from "@/components/index";
+import { MainFooter, MainNavigationBar } from "@/components/index";
 
 import "@/app/styles/globals.css";
 
@@ -15,7 +15,11 @@ type Children = {
 };
 
 export const metadata: Metadata = {
-  title: "New To Do App",
+  icons: {
+    icon: "/favicon.png",
+    shortcut: "/favicon/png",
+  },
+  title: "New ToDo",
   description: "Simple cloud based task management application.",
 };
 
@@ -33,6 +37,7 @@ const RootLayout = ({ children }: Children) => {
             >
               <MainNavigationBar />
               {children}
+              <MainFooter />
               <Toaster />
             </ThemeProvider>
           </TanstackProvider>
