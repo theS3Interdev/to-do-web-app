@@ -5,13 +5,13 @@ import { Container } from "@/components/index";
 
 export const MainFooter = () => {
   return (
-    <footer>
+    <footer className="border-t">
       <Container>
         <div className="container flex flex-col items-center gap-4 py-10 md:h-24 md:flex-row md:justify-between md:py-0">
           <Link href="/" className="flex items-center">
             <Flame className="mr-2 h-6 w-6" />
             <p className="font-montserrat text-lg font-bold tracking-wide">
-              New ToDo
+              To Do
             </p>
           </Link>
 
@@ -24,16 +24,16 @@ export const MainFooter = () => {
                 rel="noreferrer"
                 className="font-medium underline underline-offset-4"
               >
-                TheSavannahDev{" "}
+                theSavannahDev{" "}
               </a>
               and hosted on{" "}
               <a
-                href="https://vercel.com"
+                href="https://netlify.com"
                 target="_blank"
                 rel="noreferrer"
                 className="font-medium underline underline-offset-4"
               >
-                Vercel
+                Netlify
               </a>
               . The source code is available on{" "}
               <a

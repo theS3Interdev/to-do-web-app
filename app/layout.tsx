@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     icon: "/favicon.png",
     shortcut: "/favicon/png",
   },
-  title: "New ToDo",
+  title: "To Do",
   description: "Simple cloud based task management application.",
 };
 
