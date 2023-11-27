@@ -42,21 +42,15 @@ export const MainNavigationBarActions = () => {
       </DropdownMenu>
       {/* theme button end */}
 
-      {/* sign-in/sign-up button start */}
+      {/* sign-in button start */}
       <div className="flex items-center space-x-1 lg:space-x-2">
         {!isSignedIn && (
-          <>
-            <Button asChild>
-              <Link href="/sign-in">Sign In</Link>
-            </Button>
-
-            <Button asChild>
-              <Link href="/sign-up">Sign Up</Link>
-            </Button>
-          </>
+          <Button asChild>
+            <Link href="/sign-in">Sign In</Link>
+          </Button>
         )}
       </div>
-      {/* sign-in/sign-up button end */}
+      {/* sign-in button end */}
 
       {/* user profile button start */}
       {isSignedIn && (

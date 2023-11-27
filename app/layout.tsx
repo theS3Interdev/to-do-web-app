@@ -6,13 +6,12 @@ import { TanstackProvider } from "@/lib/providers/tanstack-provider";
 import { ThemeProvider } from "@/lib/providers/theme-provider";
 
 import { Toaster } from "@/components/ui/toaster";
-import { MainFooter, MainNavigationBar } from "@/components/index";
 
 import "@/app/styles/globals.css";
 
-type Children = {
+interface Children {
   children: ReactNode;
-};
+}
 
 export const metadata: Metadata = {
   icons: {
@@ -35,9 +34,7 @@ const RootLayout = ({ children }: Children) => {
               enableSystem
               disableTransitionOnChange
             >
-              <MainNavigationBar />
               {children}
-              <MainFooter />
               <Toaster />
             </ThemeProvider>
           </TanstackProvider>
