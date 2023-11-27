@@ -1,5 +1,7 @@
+import { Container } from "@/components/index";
+
 const DashboardPage = () => {
-  return <div>Dashboard Page</div>;
+  return <Container>Dashboard Page</Container>;
 };
 
 export default DashboardPage;
