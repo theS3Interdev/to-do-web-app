@@ -8,10 +8,10 @@ export const LandingOpenSourceSection = () => {
       </h2>
 
       <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
-        New ToDo is open source and powered by open source software. <br /> The
+        To Do is open source and powered by open source software. <br /> The
         code is available on{" "}
         <Link
-          href="https://github.com/TheSavannahDev/new-todo-app"
+          href="https://github.com/thesavannahdev/new-todo-app"
           target="_blank"
           rel="noreferrer"
           className="underline underline-offset-4"
