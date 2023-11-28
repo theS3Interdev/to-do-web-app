@@ -1,4 +1,4 @@
-export type Todo = {
+export type ToDo = {
   id: String;
   title: String;
   done: Boolean;
