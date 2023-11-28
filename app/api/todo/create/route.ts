@@ -22,7 +22,7 @@ export async function POST(req: Request) {
 
     return NextResponse.json(todo, { status: 200 });
   } catch (error) {
-    console.log("[TODO_POST]", error);
+    console.log("[TODO_CREATE]", error);
     return new NextResponse("Internal server error.", { status: 500 });
   }
 }

@@ -53,7 +53,7 @@ export const CreateToDo = () => {
       toast({
         variant: "default",
         title: "Information",
-        description: "Item added successfully.",
+        description: "Task item created successfully.",
       });
 
       queryClient.invalidateQueries({ queryKey: ["userToDo"] });
