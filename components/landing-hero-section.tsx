@@ -29,7 +29,7 @@ export const LandingHeroSection = () => {
 
         <Button asChild>
           <Link
-            href="https://github.com/TheSavannahDev/new-todo-app"
+            href="https://github.com/theSavannahDev/to-do-web-app"
             target="_blank"
             rel="noreferrer"
           >
