@@ -19,25 +19,25 @@ export const MainFooter = () => {
             <p className="text-center text-sm leading-loose md:text-right">
               Built by{" "}
               <a
-                href="https://twitter.com/theSavannahDev"
+                href="https://twitter.com/theS3InterDev"
                 target="_blank"
                 rel="noreferrer"
                 className="font-medium underline underline-offset-4"
               >
-                theSavannahDev{" "}
+                theS3InterDev{" "}
               </a>
               and hosted on{" "}
               <a
-                href="https://netlify.com"
+                href="https://vercel.com"
                 target="_blank"
                 rel="noreferrer"
                 className="font-medium underline underline-offset-4"
               >
-                Netlify
+                Vercel
               </a>
               . The source code is on{" "}
               <a
-                href="https://github.com/theSavannahDev/new-todo-app"
+                href="https://github.com/theS3InterDev/new-todo-app"
                 target="_blank"
                 rel="noreferrer"
                 className="font-medium underline underline-offset-4"

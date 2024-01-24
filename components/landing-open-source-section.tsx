@@ -11,7 +11,7 @@ export const LandingOpenSourceSection = () => {
         To Do is open source and powered by open source software. <br /> The
         code is available on{" "}
         <Link
-          href="https://github.com/theSavannahDev/to-do-web-app"
+          href="https://github.com/theS3InterDev/to-do-web-app"
           target="_blank"
           rel="noreferrer"
           className="underline underline-offset-4"
