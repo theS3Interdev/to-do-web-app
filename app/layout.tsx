@@ -14,10 +14,6 @@ interface Children {
 }
 
 export const metadata: Metadata = {
-  icons: {
-    icon: "/favicon.png",
-    shortcut: "/favicon/png",
-  },
   title: "To Do",
   description: "Simple cloud based task management application.",
 };
