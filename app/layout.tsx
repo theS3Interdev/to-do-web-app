@@ -14,7 +14,7 @@ interface Children {
 }
 
 export const metadata: Metadata = {
-  title: "To Do",
+  title: "Todo Web App",
   description: "Simple cloud based task management application.",
 };
 

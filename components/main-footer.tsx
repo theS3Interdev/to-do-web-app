@@ -37,7 +37,7 @@ export const MainFooter = () => {
               </a>
               . The source code is on{" "}
               <a
-                href="https://github.com/theS3InterDev/new-todo-app"
+                href="https://github.com/theS3Interdev/to-do-web-app"
                 target="_blank"
                 rel="noreferrer"
                 className="font-medium underline underline-offset-4"

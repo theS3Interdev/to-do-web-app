@@ -46,7 +46,7 @@ export const MainNavigationBarActions = () => {
       <div className="flex items-center space-x-1 lg:space-x-2">
         {!isSignedIn && (
           <Button asChild>
-            <Link href="/sign-in">Sign In</Link>
+            <Link href="/dashboard">Go to Dashboard</Link>
           </Button>
         )}
       </div>

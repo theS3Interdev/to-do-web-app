@@ -6,7 +6,7 @@ export const LandingHeroSection = () => {
   return (
     <div className="container flex max-w-[64rem] flex-col items-center gap-4 text-center">
       <Link
-        href="https://twitter.com/TheSavannahDev"
+        href="https://twitter.com/theS3Interdev"
         className="rounded-2xl bg-muted px-4 py-1.5 text-sm font-medium"
         target="_blank"
       >
@@ -24,12 +24,12 @@ export const LandingHeroSection = () => {
 
       <div className="space-x-4">
         <Button asChild>
-          <Link href="/sign-in">Get Started</Link>
+          <Link href="/dashboard">Get Started</Link>
         </Button>
 
         <Button asChild>
           <Link
-            href="https://github.com/theS3InterDev/to-do-web-app"
+            href="https://github.com/theS3Interdev/to-do-web-app"
             target="_blank"
             rel="noreferrer"
           >
